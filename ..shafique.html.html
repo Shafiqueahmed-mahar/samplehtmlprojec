@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+    <title>My Personal Page</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Welcome to My Personal Page</h1>
+            <h2>About Me</h2>
+            <p>Hello! My name is Shafique. I am learning web development and love coding.</p>
+            <p>My hobbies include reading, playing cricket, and exploring new technologies.</p>
+        </section>
+
+     
+        <section>
+            <h2>Media</h2>
+            <h3>My Favorite Song</h3>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <h3>My Favorite Video</h3>
+            <video width="400" controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section>
+            <h2>Contact Me</h2>
+            <form action="/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name"><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email"><br><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required placeholder="Write your message"></textarea><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
+
